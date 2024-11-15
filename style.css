@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+
+}
+
+aside {
+
+    margin: 35px 0 55px 76px;
+
+}
+
+
+.nav-link {
+
+    font-weight: 20px;
+    width: 87px;
+    font-weight: 400;
+    font-size: 17px;
+    height: 21px;
+    color: #17233D;
+    text-decoration: none;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+#Nav-button {
+
+    font-weight: 500;
+    font-size: 16px;
+    width: 144px;
+    height: 66px;
+    border-radius: 10px;
+    background-color: #4CB538;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-left: 25px;
+    border-width: 30px;
+    border: none;
+
+}
+
+.img-logo {
+
+    margin-top: 95px;
+    margin-left: 80px;
+    display: inline-block;
+
+}
+
+
+.text-principal {
+
+    font-weight: 700;
+    font-size: 62px;
+    color: #161A49;
+
+    left: 801px;
+    width: 582px;
+    height: 164px;
+
+
+
+}
+
+.paragrafo {
+
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    width: 493px;
+    height: 99px;
+
+}
+
+.learn-button {
+
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+    height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+
+}
+
+div {
+
+    display: inline-block;
+    margin-left: 96px;
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    aside {
+
+
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    div {
+
+        text-align: center;
+        margin-left: 6vh;
+        margin-right: 6vh;
+        margin-top: 15vh;
+
+    }
+
+    #Nav-button {
+
+        margin: 0;
+        width: 134px;
+        height: 45px;
+        display: block;
+
+    }
+
+    .img-logo {
+
+        position: absolute;
+        bottom: 0;
+        width: 234px;
+     
+        justify-content: center;
+
+    }
+
+    .nav-link {
+
+        display: none;
+
+    }
+
+    #Nav-button {
+
+        float: right;
+
+    }
+
+
+    .text-principal {
+
+        font-size: 30px;
+        align-items: center;
+        width: 278px;
+        height: 60px;
+        line-height: 30px;
+        display: block;
+
+    }
+
+    .paragrafo {
+
+        font-size: 18px;
+        width: 304px;
+        height: 165px;
+        align-items: center;
+
+    }
+
+    .learn-button {
+
+        font-size: 18px;
+        height: 27px;
+        margin-bottom: 20px;
+
+    }
+
+
+}
